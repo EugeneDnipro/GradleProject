@@ -6,12 +6,12 @@ import model.User;
 
 public class Main {
 
-    private User getUsers() {
+    private User getUser() {
         return new User("Eugene", "Ponomarenko");
     }
 
     public void stringsToUser() {
-        jsonMakerAndPrinter(getUsers());
+        jsonMakerAndPrinter(getUser());
     }
 
     private void jsonMakerAndPrinter(User user) {
